@@ -1,0 +1,540 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+		color: white;
+		font-family: 'Titillium Web', sans-serif;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+ul{
+	list-style-type: none;
+}
+
+h1{
+  margin: 0;
+}
+
+#purple{
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #87509c;
+}
+
+#logo{
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#pic{
+  display: block;
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+nav li{
+  float: left;
+}
+
+nav a{
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2px 12px;
+  text-decoration: none;
+  color: white;
+}
+
+#now{
+  background-color: #643a79;
+  border-radius: 5px;
+}
+
+#purple2{
+  padding-top: 50px;
+  display: block;
+  clear: both;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+#purple2 a{
+  color: white;
+  display: block;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #eb7d4b;
+  border-radius: 3px;
+}
+
+#sec-one{
+  background-color: #17c2a4;
+}
+
+#wrapper{
+  max-width: 900px;
+  margin: auto;
+}
+
+#border{
+  max-width: 45px;
+  margin: auto;
+  border-bottom: 3px solid #14a58c;
+}
+
+#sec-one h1{
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#sec-one p{
+	margin-top: 10px;
+  text-align: center;
+}
+
+#sec-one ul{
+  margin-top: 50px;
+  width: 100%;
+}
+
+#sec-one li{
+  text-align: center;
+  padding: 0 2%;
+  float: left;
+  width: 20%;
+  padding-bottom: 80px;
+}
+
+#sec-one:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#sec-two{
+  color: black;
+  background-color: #e7f1f8;
+}
+
+#sec-two h1{
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#sec-two p{
+	margin-top: 10px;
+	margin-bottom: 30px;
+  text-align: center;
+}
+
+#sec-two > ul{
+  margin-top: 50px;
+  width: 100%;
+}
+
+#sec-two li{
+  text-align: center;
+  padding: 0 2%;
+  float: left;
+  width: 20%;
+  padding-bottom: 80px;
+}
+
+#sec-two h3{
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#sec-two h4{
+  margin-top: 5px !important;
+  color: #30bae7;
+  font-size: 12px;
+}
+
+#socials li i{
+  color: #bdd1df;
+}
+
+#socials > li{
+  display: inline-block;
+  font-size: 24px;
+  width: auto;
+  text-align: center;
+}
+
+#socials li:first-child{
+  padding-left: 10px;
+}
+
+#socials2 li i{
+  color: #bdd1df;
+}
+
+#socials2 > li{
+  display: inline-block;
+  font-size: 24px;
+  width: auto;
+  text-align: center;
+}
+
+#socials2 li:first-child{
+  padding-left: 30px;
+}
+
+#sec-two li img{
+  max-width: 100%;
+  border-radius: 100%;
+  height: 150px;
+}
+
+#sec-two:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#wrapper:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#sec-thre{
+  margin: auto;
+  max-width: 900px;
+  color: black;
+}
+
+#sec-thre h1{
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#sec-thre p{
+	margin-top: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#sec-four img{
+  width: 100%;
+}
+
+#sec-thre li{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 2%;
+  float: left;
+  width: 20%;
+  padding-bottom: 80px;
+}
+
+#sec-thre h3{
+  padding-left: 20px;
+}
+
+#sec-thre:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#sec-four{
+  background-color: #ffdd99;
+}
+
+#orange{
+  margin-left: auto;
+	margin-right: auto;
+  max-width: 960px;
+  color: black;
+	padding-bottom: 70px;
+}
+
+#sec-four h1{
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#sec-four p{
+	margin: 10px 0;
+  text-align: center;
+}
+
+#strange{
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#strange > li{
+  text-align: center;
+  background-color: #ebc985;
+  margin: 10px 6px;
+  padding: 7px 0;
+  border-radius: 5px;
+  float: left;
+  width: 20%;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#strange a{
+  color: black;
+  text-decoration: none;
+}
+
+#now2{
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+#laptops1 li{
+	text-transform: uppercase;
+	margin: 2.4%;
+	text-align: center;
+	max-width: 45%;
+	float: left;
+}
+
+#laptops1:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#laptops2 li{
+	text-transform: uppercase;
+	margin: 2.4%;
+	text-align: center;
+	max-width: 45%;
+	float: left;
+}
+
+#laptops2:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#orange > a{
+	text-align: center;
+  color: white;
+  display: block;
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #17c2a4;
+  border-radius: 3px;
+}
+
+#sec-five{
+	background-color: #d74680;
+}
+
+#pink{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+}
+
+#sec-five h1{
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#pink > p{
+	margin-top: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#pink > ul:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#pink > ul{
+	max-width: 100%;
+}
+
+#pink > ul:last-child{
+	margin-top: 100px
+}
+
+#pink > ul > li{
+	margin: auto;
+	float: left;
+	max-width: 45%;
+	margin: 0 2.5%;
+}
+
+#img{
+	max-width: 100%;
+}
+
+#pink img{
+	border-radius: 100%;
+	max-width: 100%;
+}
+
+#img li:first-child{
+	float: left;
+	margin-right: 6%;
+	max-width: 22%;
+}
+
+#img li:last-child{
+	float: left;
+	max-width: 72%;
+}
+
+#img q{
+	font-weight: 400;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 0.9em;
+}
+
+#pink h3{
+	padding-top: 15px;
+}
+
+#pink h4{
+	font-weight: normal;
+	font-size: 0.9em;
+	padding-top: 5px;
+	color: #facd96;
+}
