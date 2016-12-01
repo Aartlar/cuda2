@@ -158,7 +158,7 @@ nav a{
   margin: auto;
 }
 
-#purple2 a{
+#purple2 a, #six a, #orange > a{
   color: white;
   display: block;
   max-width: 150px;
@@ -190,7 +190,7 @@ nav a{
   border-bottom: 3px solid #14a58c;
 }
 
-#sec-one h1{
+#sec-one h1, #sec-two h1, #sec-thre h1, #sec-four h1, #sec-five h1, #six h1{
   text-transform: uppercase;
   padding-top: 60px;
   letter-spacing: 0.06em;
@@ -198,17 +198,21 @@ nav a{
   padding-bottom: 10px;
 }
 
-#sec-one p{
+#sec-one img{
+  max-width: 100%;
+}
+
+#sec-one p, #sec-two p, #sec-thre p, #pink > p, #six p{
 	margin-top: 10px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #sec-one ul{
-  margin-top: 50px;
   width: 100%;
 }
 
-#sec-one li{
+#sec-one li, #sec-two > #wrapper > ul > li, #sec-thre li{
   text-align: center;
   padding: 0 2%;
   float: left;
@@ -227,31 +231,8 @@ nav a{
   background-color: #e7f1f8;
 }
 
-#sec-two h1{
-  text-transform: uppercase;
-  padding-top: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-#sec-two p{
-	margin-top: 10px;
-	margin-bottom: 30px;
-  text-align: center;
-}
-
 #sec-two > ul{
-  margin-top: 50px;
   width: 100%;
-}
-
-#sec-two li{
-  text-align: center;
-  padding: 0 2%;
-  float: left;
-  width: 20%;
-  padding-bottom: 80px;
 }
 
 #sec-two h3{
@@ -272,12 +253,6 @@ nav a{
 #socials > li{
   display: inline-block;
   font-size: 24px;
-  width: auto;
-  text-align: center;
-}
-
-#socials li:first-child{
-  padding-left: 10px;
 }
 
 #socials2 li i{
@@ -319,35 +294,17 @@ nav a{
   color: black;
 }
 
-#sec-thre h1{
-  text-transform: uppercase;
-  padding-top: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-bottom: 10px;
+#sec-thre img{
+  max-width: 100%;
 }
 
-#sec-thre p{
-	margin-top: 10px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-#sec-four img{
+#sec-thre ul{
   width: 100%;
 }
 
-#sec-thre li{
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0 2%;
-  float: left;
-  width: 20%;
-  padding-bottom: 80px;
-}
-
 #sec-thre h3{
-  padding-left: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #sec-thre:after{
@@ -366,14 +323,6 @@ nav a{
   max-width: 960px;
   color: black;
 	padding-bottom: 70px;
-}
-
-#sec-four h1{
-  text-transform: uppercase;
-  padding-top: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-bottom: 10px;
 }
 
 #sec-four p{
@@ -399,6 +348,10 @@ nav a{
   font-size: 14px;
 }
 
+#sec-four img{
+  max-width: 100%;
+}
+
 #strange a{
   color: black;
   text-decoration: none;
@@ -410,7 +363,7 @@ nav a{
   border-radius: 5px;
 }
 
-#laptops1 li{
+#laptops li{
 	text-transform: uppercase;
 	margin: 2.4%;
 	text-align: center;
@@ -418,21 +371,7 @@ nav a{
 	float: left;
 }
 
-#laptops1:after{
-	display: block;
-	content: "";
-	clear: both;
-}
-
-#laptops2 li{
-	text-transform: uppercase;
-	margin: 2.4%;
-	text-align: center;
-	max-width: 45%;
-	float: left;
-}
-
-#laptops2:after{
+#laptops:after{
 	display: block;
 	content: "";
 	clear: both;
@@ -440,19 +379,7 @@ nav a{
 
 #orange > a{
 	text-align: center;
-  color: white;
-  display: block;
-  max-width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 15px 20px;
-  text-decoration: none;
   background-color: #17c2a4;
-  border-radius: 3px;
 }
 
 #sec-five{
@@ -464,20 +391,6 @@ nav a{
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 100px;
-}
-
-#sec-five h1{
-  text-transform: uppercase;
-  padding-top: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-#pink > p{
-	margin-top: 10px;
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 #pink > ul:after{
@@ -550,46 +463,33 @@ nav a{
   padding-bottom: 50px;
 }
 
-#six h1{
-  text-transform: uppercase;
-  padding-top: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-bottom: 10px;
+form{
+  width: 100%;
 }
 
-#six p{
-	margin-top: 10px;
-  text-align: center;
-  margin-bottom: 50px;
+.name{
+  float: left;
+  width: 43%;
+  padding: 1.5%;
+  margin: 1.875%;
+  background-color: #273a71;
+  border: 0;
+  border-radius: 3px;
 }
 
-textarea{
+.textinput{
   color: white;
-  padding: 15px;
-  margin-bottom: 28px;
-  margin-left: 28px;
-  font-size: 14px;
   border: 0;
   border-radius: 3px;
   background-color: #273a71;
+  padding: 1.5%;
+  width: 93%;
+  margin: 2%;
 }
 
 #six a{
-  text-align: center;
-  color: white;
-  display: block;
-  max-width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 15px 20px;
-  text-decoration: none;
   background-color: #30bae7;
-  border-radius: 3px;
+  text-align: center;
 }
 
 #footer{
@@ -604,15 +504,13 @@ textarea{
 }
 
 #footer ul{
-  width: auto;
-  float: left;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #footer li{
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 3%;
   float: left;
 }
 
@@ -623,8 +521,70 @@ textarea{
   font-weight: 900;
 }
 
+#footer ul:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#socials3:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
 #footer:after{
   display: block;
   content: "";
   clear: both;
+}
+
+@media screen and (max-width: 772px){
+  #pink > ul > li{
+    margin: auto;
+    float: left;
+    max-width: 90%;
+    margin: 20px 5%;
+  }
+  #pink > ul:last-child{
+  	margin-top: 0px;
+  }
+  #laptops li{
+  	text-transform: uppercase;
+  	margin: 20px 15%;
+  	text-align: center;
+  	max-width: 70%;
+  	float: left;
+  }
+  #sec-one li, #sec-two > #wrapper > ul > li, #sec-thre li{
+    text-align: center;
+    padding: 0 1%;
+    margin: 0 1%;
+    float: left;
+    width: 42%;
+    padding-bottom: 40px;
+  }
+  #footer li{
+    margin: 2%;
+  }
+  #footer a{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 558px){
+  #sec-one li, #sec-two > #wrapper > ul > li, #sec-thre li{
+    text-align: center;
+    padding: 0 2%;
+    margin: 0 2%;
+    float: left;
+    width: 92%;
+    padding-bottom: 40px;
+  }
+  #footer li{
+    margin: 1%;
+  }
+  #footer a{
+    font-size: 14px;
+  }
 }
