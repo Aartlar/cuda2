@@ -538,3 +538,93 @@ nav a{
 	padding-top: 5px;
 	color: #facd96;
 }
+
+#six{
+  background-color: #3c5499;
+}
+
+#blue{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+#six h1{
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#six p{
+	margin-top: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+textarea{
+  color: white;
+  padding: 15px;
+  margin-bottom: 28px;
+  margin-left: 28px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #273a71;
+}
+
+#six a{
+  text-align: center;
+  color: white;
+  display: block;
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #30bae7;
+  border-radius: 3px;
+}
+
+#footer{
+  background-color: #344b8e;
+  width: 100%;
+}
+
+#socials3{
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#footer ul{
+  width: auto;
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#footer li{
+  margin-left: 25px;
+  margin-right: 25px;
+  float: left;
+}
+
+#footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+#footer:after{
+  display: block;
+  content: "";
+  clear: both;
+}
